@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subject Taken</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .favorites-section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .favorites-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .favorite-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      background: #f9f9f9;
+    }
+    .favorite-item img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .favorite-text {
+      max-width: 500px;
+    }
+    .favorite-text h3 {
+      margin: 0 0 10px;
+    }
+    .favorite-text p {
+      margin: 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+   <!-- NAVIGATION BAR -->
+   <nav>
+    <div class="left">
+      <a href="index.html">Prince Rainier T. Lomo</a>
+    </div>
+    <div class="right">
+      <a href="index.html">
+        <i class="fa-solid fa-user"></i>
+        <span>About Me</span>
+      </a>
+      <a href="subject.html">  
+        <i class="fa-solid fa-book"></i>
+        <span>Subject Taken</span>
+      </a>
+      <a href="enrolled.html">
+        <i class="fa-solid fa-clipboard"></i>
+        <span>Enrolled</span>
+      </a>
+      <a href="contact-me.html">
+        <i class="fa-solid fa-address-book"></i>
+        <span>Contact Me</span>
+      </a>
+      <a href="#">
+        <i class="fa-solid fa-star"></i>
+        <span>My Favorites</span>
+      </a>
+      <a href="gallery.html">
+        <i class="fa-solid fa-images"></i>
+        <span>Gallery</span>
+      </a>
+    </div>
+  </nav>
+  <section id="favorites" class="favorites-section">
+    <h2>My Favorites</h2>
+    <div class="favorites-container">
+      <div class="favorite-item">
+        <img src="images/gaming.jpg" alt="Gaming">
+        <div class="favorite-text">
+          <h3>Gaming</h3>
+          <p>I love playing video games, especially strategy and RPGs. It's a great way to relax and challenge my mind.</p>
+        </div>
+      </div>
+      <div class="favorite-item">
+        <img src="images/coding.jpg" alt="Coding">
+        <div class="favorite-text">
+          <h3>Coding</h3>
+          <p>Coding is my passion. I enjoy solving problems and building projects that make a difference.</p>
+        </div>
+      </div>
+      <div class="favorite-item">
+        <img src="images/books.jpg" alt="Reading Books">
+        <div class="favorite-text">
+          <h3>Reading Books</h3>
+          <p>I love diving into novels, especially fantasy and sci-fi. It's a great escape into different worlds.</p>
+        </div>
+      </div>
+    </div>
+    
+      <!-- Biking -->
+      <div class="favorite-item">
+        <img src="images/biking.jpg" alt="Biking">
+        <h3>Biking</h3>
+        <p>Biking is my go-to outdoor activity. It keeps me active and lets me explore new places.</p>
+      </div>
+      <!-- Watching Anime -->
+      <div class="favorite-item">
+        <img src="images/anime.jpg" alt="Watching Anime">
+        <h3>Watching Anime</h3>
+        <p>Anime is a big part of my life. I enjoy the unique storytelling and artistic styles.</p>
+      </div>
+      <!-- Listening to Music -->
+      <div class="favorite-item">
+        <img src="images/music.jpg" alt="Listening to Music">
+        <h3>Listening to Music</h3>
+        <p>Music is my constant companion. I listen to a variety of genres, from pop to classical.</p>
+      </div>
+      <!-- Trying New Foods -->
+      <div class="favorite-item">
+        <img src="images/newfood.jpg" alt="Trying New Foods">
+        <h3>Trying New Foods</h3>
+        <p>I'm a foodie at heart. I love exploring new cuisines and flavors from around the world.</p>
+      </div>
+      <!-- Watching Sci-Fi Movies -->
+      <div class="favorite-item">
+        <img src="images/sci-fi.jpg" alt="Watching Sci-Fi Movies">
+        <h3>Watching Sci-Fi Movies</h3>
+        <p>Sci-fi movies fascinate me with their futuristic concepts and imaginative storytelling.</p>
+      </div>
+      <!-- Exploring New Technology -->
+      <div class="favorite-item">
+        <img src="images/technology.jpg" alt="Exploring New Technology" height="200px" width="300px">
+        <h3>Exploring New Technology</h3>
+        <p>I'm always excited to learn about the latest tech innovations and how they shape the future.</p>
+      </div>
+      <!-- Traveling -->
+      <div class="favorite-item">
+        <img src="images/traveling.jpg" alt="Traveling">
+        <h3>Traveling</h3>
+        <p>Traveling allows me to experience new cultures, meet new people, and create unforgettable memories.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
