@@ -120,6 +120,15 @@
     width: 500px;
   } 
 
+  footer {
+    background-color: #0099CC;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
   @media (max-width: 850px){
     /*SECTION1 ABOUT ME*/
     .about-me .text h2 {
