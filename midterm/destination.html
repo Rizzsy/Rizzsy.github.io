@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Iloilo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .header img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .nav {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .header h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .gallery-item {
+            width: 45%;
+            text-align: center;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="destination.jpg" alt="Iloilo Church">
+        <div class="overlay">
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="#">Destination</a>
+                <a href="hotels.html">Hotels</a>
+                <a href="restaurant.html">Restaurants</a>
+            </div>
+            <h1>Discover Iloilo's Best Destinations</h1>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="section">
+            <h2>Historical & Cultural Landmarks</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="hs1.png" alt="Molo Church">
+                    <p><strong>Molo Church (St. Anne Parish Church)</strong><br>A stunning neo-Gothic church known as the "Feminist Church" due to its all-female saint statues.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="hs2.png" alt="Calle Real">
+                    <p><strong>Calle Real (Old Downtown Iloilo)</strong><br>A heritage street with beautifully preserved colonial-era buildings.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Natural & Outdoor Attractions</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="hs3.png" alt="Gigantes Islands">
+                    <p><strong>Gigantes Islands</strong><br>A breathtaking island-hopping paradise with pristine white sand beaches and limestone cliffs.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="hs4.png" alt="Garin Farm">
+                    <p><strong>Garin Farm (San Joaquin)</strong><br>A pilgrimage site featuring a stairway to a heaven-like white cross, plus an interactive farm experience.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Modern & Leisure Destinations</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="hs5.png" alt="Festive Walk Iloilo">
+                    <p><strong>Festive Walk Iloilo</strong><br>A lively shopping and entertainment hub perfect for relaxation and exploration.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="hs6.png" alt="SM City Iloilo">
+                    <p><strong>SM City Iloilo & Plazuela de Iloilo</strong><br>Ideal for shopping, dining, and leisure activities.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

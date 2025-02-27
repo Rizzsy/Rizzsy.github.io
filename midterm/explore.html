@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iloilo City</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            position: relative;
+            text-align: left;
+            color: white;
+        }
+        .header img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 5%;
+        }
+        .nav {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Adjust space between links */
+    background: transparent;
+}
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .header h1 {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 20px;
+            margin-top: 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="image 2.png" alt="">
+        <div class="overlay">
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="#">Explore</a>
+                <a href="destination.html">Destination</a>
+                <a href="hotels.html">Hotels</a>
+                <a href="restaurant.html">Restaurants</a>
+            </div>
+            <h1>Experience the charm of <br><span style="color: #3fa9f5;">Iloilo City</span></h1>
+            <p>A perfect blend of history, culture, and modern living—explore Iloilo's stunning landscapes, heritage sites, and vibrant city life.</p>
+            <a href="https://en.wikipedia.org/wiki/Iloilo_City" style="background: white; color: black; padding: 10px 20px; border: none; cursor: pointer; text-decoration: none; display: inline-block;">Learn more</a>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <img src="1.png" alt="Iloilo History">
+        <img src="2explore.png" alt="Dinagyang Festival">
+        <img src="3explore.png" alt="City Skyline">
+    </div>
+</body>
+</html>

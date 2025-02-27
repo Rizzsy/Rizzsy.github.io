@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Perfect Stay in Iloilo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .header img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .header h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .gallery-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 80%;
+        }
+        .gallery-item img {
+            width: 40%;
+            border-radius: 10px;
+        }
+        .gallery-item p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="hotel.png" alt="Hotels in Iloilo">
+        <div class="overlay">
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="destination.html">Destination</a>
+                <a href="#">Hotels</a>
+                <a href="restaurant.html">Restaurants</a>
+            </div>
+            <h1>Find the Perfect Stay in Iloilo</h1>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="gallery">
+            <div class="gallery-item">
+                <p>Seda Atria Hotel</p>
+                <img src="h1.png" alt="Seda Atria Hotel">
+            </div>
+            <div class="gallery-item">
+                <img src="h2.png" alt="Injap Tower Hotel">
+                <p>Injap Tower Hotel</p>
+            </div>
+            <div class="gallery-item">
+                <p>Zuri Hotel</p>
+                <img src="h3.png" alt="Zuri Hotel">
+            </div>
+            <div class="gallery-item">
+                <img src="h4.png" alt="Grand Xing Imperial Hotel">
+                <p>Grand Xing Imperial Hotel</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
